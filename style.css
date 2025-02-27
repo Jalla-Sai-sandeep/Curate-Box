@@ -1,0 +1,361 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    background: url('Assets/fff.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Hero Section */
+#hero {
+    background: rgba(255, 126, 95, 0.85); /* Adding transparency */
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+/* CTA Button */
+.cta-button {
+    background: rgba(255, 87, 34, 0.9);
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background: rgba(230, 74, 25, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#how-it-works {
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.step {
+    width: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Adding transparency */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.step i {
+    font-size: 40px;
+    color: #ff7e5f;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.step:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Subscription Box Themes */
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+/* Left Side - Text Content */
+.box-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.box-content h2 {
+    font-size: 2rem;
+    color:orangered;
+    margin-bottom: 20px;
+}
+
+.box-content p {
+    font-size: 1.2rem;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.subscription-types {
+    display: flex;
+    align-items: center;
+    background: rgba(248, 249, 250, 0.85);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.subscription-types i {
+    font-size: 35px;
+    margin-right: 15px;
+    color:black;
+}
+
+.subscription-types h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.subscription-types p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Right Side - Image */
+.box-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/*Pricing & Subscription Plans */
+.pricing-container {
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.8);
+    justify-content: center;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 50px 20px;
+    margin: 20px;
+}
+
+.pricing-plan {
+    background:rgb(23, 22, 22);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan-title {
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.plan-features {
+    font-size: 16px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    background: #ff5722;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+/* Discount Banner */
+.discount {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color:black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.discount span {
+    font-size: 22px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* Simple Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.cta {
+    background: rgba(255, 87, 34, 0.9);
+    color:black;
+    font-size: 18px;
+    padding: 15px 30px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta:hover {
+    background: rgba(230, 74, 25, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+#contact{
+    background-color:rgba(255, 255, 255, 0.8);
+    margin:20px;
+    border-radius: 50px;
+}
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.897);
+    border-radius: 5px;
+}
+#contact h2{
+    padding-top: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color:black;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    .cta {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .box-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-content {
+        order: 2;
+    }
+
+    .box-image {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .subscription-types {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .subscription-types i {
+        margin-bottom: 10px;
+    }
+}
